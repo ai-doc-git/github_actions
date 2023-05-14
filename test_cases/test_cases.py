@@ -1,8 +1,9 @@
 """
 Test Cases module.
 """
-
-from main import sum_of_two_numbers
+import sys
+# sys.path.append('../github_actions')
+from github_actions.main import *
 
 
 def test_sum_function_01():
