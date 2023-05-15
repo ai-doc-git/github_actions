@@ -1,10 +1,6 @@
 """
 Test Cases module.
 """
-import sys
-sys.path.append('../')
-from main import *
-
 
 def test_sum_function_01():
     """
