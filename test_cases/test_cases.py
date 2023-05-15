@@ -2,8 +2,8 @@
 Test Cases module.
 """
 import sys
-# sys.path.append('../github_actions')
-from github_actions.main import *
+sys.path.append('../')
+from main import *
 
 
 def test_sum_function_01():
@@ -22,4 +22,4 @@ def test_sum_function_03():
     """
     Test Case 03
     """
-    assert sum_of_two_numbers(4, 4) == 5
+    assert sum_of_two_numbers(4, 4) == 8
