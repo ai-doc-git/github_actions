@@ -4,7 +4,7 @@ Test Cases module.
 
 from os import sys, path
 sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
-from function.basic_ops import *
+from function.basic_ops import sum_of_two_numbers
 
 def test_sum_function_01():
     """
