@@ -1,6 +1,7 @@
 """
 Test Cases module.
 """
+from pipeline.main import *
 
 def test_sum_function_01():
     """
