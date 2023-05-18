@@ -15,11 +15,11 @@ def numpy_sqrt_op(num):
     """
     return int(np.sqrt(num))
 
-def append_create(num):
+def append_list(num):
     """
     Function to calculate square root of a number.
     """
     lst = []
     for item in range(0,10):
-        lst = lst.append(item)
+        lst.append(item)
     return lst
