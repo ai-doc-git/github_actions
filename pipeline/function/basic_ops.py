@@ -15,17 +15,17 @@ def numpy_sqrt_op(num):
     """
     return int(np.sqrt(num))
 
-# def append_list(num):
-#     """
-#     Function to append items to list in a specific range using for loop.
-#     """
-#     lst = []
-#     for item in range(0,num):
-#         lst.append(item)
-#     return lst
-
 def append_list(num):
     """
-    Function to append items to list in a specific range using list comprehension.
+    Function to append items to list in a specific range using for loop.
     """
-    return [item for item in range(1,num)]
+    lst = []
+    for item in range(0,num):
+        lst.append(item)
+    return lst
+
+# def append_list(num):
+#     """
+#     Function to append items to list in a specific range using list comprehension.
+#     """
+#     return [item for item in range(0,num)]
