@@ -28,4 +28,4 @@ def append_list(num):
     """
     Function to append items to list in a specific range using list comprehension.
     """
-    return [item for item in range(0,num)]
+    return [item for item in range(1,num)]
