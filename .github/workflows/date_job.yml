@@ -9,14 +9,14 @@ jobs:
     - run: date
   windows:
     runs-on: windows-latest
-      steps:
-      - run: date
+    steps:
+    - run: date
   macos:
     runs-on: macos-latest
-      steps:
-      - run: date
+    steps:
+    - run: date
   depends:
     needs: [ubuntu, windows, macos]
     runs-on: macos-latest
-      steps:
-      - run: date
+    steps:
+    - run: date
